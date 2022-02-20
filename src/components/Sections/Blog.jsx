@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-// Components
-import TestimonialSlider from "../Elements/TestimonialSlider";
+import TestimonialBox from "../Elements/TestimonialBox";
 
 export default function Blog() {
   return (
@@ -17,7 +16,22 @@ export default function Blog() {
               labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>
           </HeaderInfo>
-          <TestimonialSlider />
+          <div className="flexCenter">
+            <LogoWrapper>
+              <TestimonialBox
+                text="Melalui BLKEP saya diberi kesempatan untuk meneladani perubahan kehidupan rohani dari Pewarta yang dahulunya seorang yang luka batin terhadap ibunya, beliau membacakan surat kebenciannya pada ibunya yang beliau buat 25 tahun silam, berkat rahmat Tuhan hubungan beliau dengan ibunya dipulihkan dan menjadi sangat dekat."
+                author="Anonymous"
+              />
+            </LogoWrapper>
+          </div>
+          <div className="flexCenter">
+            <LogoWrapper>
+              <TestimonialBox
+                text="Puji Tuhan saya mengalami pemulihan hubungan dengan orang-orang yang pernah melukai saya, membenci saya dan pernah berseteru dengan saya sejak mengikuti pengajaran sesi 2 dalam topik Pemuridan. Saking serunya tiap sesi di BLKEP ini dan bertemu teman-teman sekelompok, sekelas yang sangat semangat, membuat saya terus semangat ikut sesi"
+                author="Andray, KEP XIV, BLKEP V"
+              />
+            </LogoWrapper>
+          </div>
         </div>
       </div>
     </Wrapper>
@@ -32,5 +46,14 @@ const HeaderInfo = styled.div`
   margin-bottom: 30px;
   @media (max-width: 860px) {
     text-align: center;
+  }
+`;
+
+const LogoWrapper = styled.div`
+  width: 90%;
+  cursor: pointer;
+  :focus-visible {
+    outline: none;
+    border: 0px;
   }
 `;

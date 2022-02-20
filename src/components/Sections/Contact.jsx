@@ -16,8 +16,8 @@ export default function Contact() {
             <iframe
               title="Form Pendaftaran BLKEP X"
               src="https://docs.google.com/forms/d/e/1FAIpQLSfRFzuL5-lmKOvEd2srDDEunM5MIX_h994ChtMAouvS9Mfdlg/viewform?embedded=true"
-              width="90%"
-              height="2281"
+              width="95%"
+              height="2600"
               frameborder="0"
               marginheight="0"
               marginwidth="0"

@@ -98,7 +98,7 @@ export default function TopNavbar() {
                 smooth={true}
                 offset={-80}
               >
-                Daftar
+                Form Pendaftaran
               </Link>
             </li>
           </UlWrapper>
