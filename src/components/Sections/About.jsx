@@ -136,9 +136,12 @@ export default function About() {
               </h2>
               <AccordionPanel pb={4}>
                 Pandemi belum berakhir, tapi semangat kita tidak boleh berakhir.
-                Maka kita akan mengadakan BLKEP Angkatan VI dengan media Zoom
-                online dari rumah masing-masing peserta. Konsep pengajaran
-                detailnya akan diumumkan kemudian oleh Panitia.
+                Maka kita akan mengadakan BLKEP Angkatan VI dengan media{" "}
+                <a href="https://zoom.us/">
+                  <b> Zoom </b>
+                </a>
+                online meeting dari rumah masing-masing peserta. Konsep
+                pengajaran detailnya akan diumumkan kemudian oleh Panitia.
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
@@ -152,7 +155,11 @@ export default function About() {
               </h2>
               <AccordionPanel pb={4}>
                 Retret Penyembuhan Luka Batin akan tetap dilangsungkan dengan
-                media Zoom online, dengan keterbatasan tidak dapat bersentuhan
+                media{" "}
+                <a href="https://zoom.us/">
+                  <b> Zoom </b>
+                </a>{" "}
+                online meeting, dengan keterbatasan tidak dapat bersentuhan
                 secara fisik, tetapi kita percaya Roh Kudus tetap hadir
                 dimanapun kita berada karena Ia menembus batas ruang dan waktu.
                 Amin.

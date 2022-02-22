@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 // Assets
-import HeaderImage from "../../assets/img/header-img.png";
-import QuotesIcon from "../../assets/svg/Quotes";
-import Dots from "../../assets/svg/Dots";
+import HeaderImage from "../../assets/img/header.jpeg";
+// import QuotesIcon from "../../assets/svg/Quotes";
+// import Dots from "../../assets/svg/Dots";
 
 export default function Header() {
   return (
@@ -32,28 +32,30 @@ export default function Header() {
             alt="office"
             style={{ zIndex: 9 }}
           />
-          <QuoteWrapper className="flexCenter darkBg radius8">
+          {/* <QuoteWrapper className="flexCenter darkBg radius8">
             <QuotesWrapper>
               <QuotesIcon />
             </QuotesWrapper>
             <div>
               <p className="font15 whiteColor">
                 <em>
-                  Friends, such as we desire, are dreams and fables. Friendship
-                  demands the ability to do without it.
+                  Bukan kamu yang memilih Aku, tetapi Akulah yang memilih kamu.
+                  Dan Aku telah menetapkan kamu, supaya kamu pergi dan
+                  menghasilkan buah dan buahmu itu tetap, supaya apa yang kamu
+                  minta kepada Bapa dalam nama-Ku, diberikan-Nya kepadamu.
                 </em>
               </p>
               <p
                 className="font13 orangeColor textRight"
                 style={{ marginTop: "10px" }}
               >
-                Ralph Waldo Emerson
+                Yohanes 15:16
               </p>
             </div>
           </QuoteWrapper>
           <DotsWrapper>
             <Dots />
-          </DotsWrapper>
+          </DotsWrapper> */}
         </ImageWrapper>
         <GreyDiv className="lightBg"></GreyDiv>
       </RightSide>
@@ -127,35 +129,36 @@ const Img = styled.img`
     width: 80%;
     height: auto;
   }
+  //
 `;
-const QuoteWrapper = styled.div`
-  position: absolute;
-  left: 0;
-  bottom: 50px;
-  max-width: 330px;
-  padding: 30px;
-  z-index: 99;
-  @media (max-width: 960px) {
-    left: 20px;
-  }
-  @media (max-width: 560px) {
-    bottom: -50px;
-  }
-`;
-const QuotesWrapper = styled.div`
-  position: absolute;
-  left: -20px;
-  top: -10px;
-`;
-const DotsWrapper = styled.div`
-  position: absolute;
-  right: -100px;
-  bottom: 100px;
-  z-index: 2;
-  @media (max-width: 960px) {
-    right: 100px;
-  }
-  @media (max-width: 560px) {
-    display: none;
-  }
-`;
+// const QuoteWrapper = styled.div`
+//   position: absolute;
+//   left: 0;
+//   bottom: 50px;
+//   max-width: 330px;
+//   padding: 30px;
+//   z-index: 99;
+//   @media (max-width: 960px) {
+//     left: 20px;
+//   }
+//   @media (max-width: 560px) {
+//     bottom: -50px;
+//   }
+// `;
+// const QuotesWrapper = styled.div`
+//   position: absolute;
+//   left: -20px;
+//   top: -10px;
+// `;
+// const DotsWrapper = styled.div`
+//   position: absolute;
+//   right: -100px;
+//   bottom: 100px;
+//   z-index: 2;
+//   @media (max-width: 960px) {
+//     right: 100px;
+//   }
+//   @media (max-width: 560px) {
+//     display: none;
+//   }
+// `;

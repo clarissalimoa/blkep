@@ -28,13 +28,13 @@ export default function Contact() {
                 className="font15 extraBold whiteColor"
                 style={{ marginLeft: "15px" }}
               >
-                Paroki HSPMTB Tangerang
+                Gereja Trinitas, Paroki Cengkareng
               </h1>
             </Link>
             <StyleP className="whiteColor font13">
               © {getCurrentYear()} -{" "}
               <span className="purpleColor font13">
-                Paroki HSPMTB Tangerang
+                Gereja Trinitas, Paroki Cengkareng
               </span>{" "}
               All Right Reserved
             </StyleP>

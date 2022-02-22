@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
 // Assets
-import LogoIcon from "../../assets/svg/Logo";
+import LogoImage from "../../assets/img/logo.jpg";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 
 export default function TopNavbar() {
@@ -29,9 +29,9 @@ export default function TopNavbar() {
       >
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
-            <LogoIcon />
+            <img src={LogoImage} alt="" style={{ width: "50px" }} />
             <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
-              Paroki HSPMTB Tangerang
+              Gereja Trinitas, Paroki Cengkareng
             </h1>
           </Link>
           <BurderWrapper

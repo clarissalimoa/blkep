@@ -4,8 +4,24 @@ import styled from "styled-components";
 export default function Contact() {
   return (
     <Wrapper id="contact">
-      <div className="lightBg">
+      <div className="whiteBg">
         <div className="container">
+          <HeaderInfo>
+            <h1 className="font40 extraBold">Informasi dan Pendaftaran</h1>
+            <div>
+              Untuk informasi lebih lanjut dapat menghubungi contact person
+              sebagai berikut: <br />
+              <b> Deddy:</b>
+              <a href="https://wa.link/aeee09"> 0813-1683-0568 (WA)</a>
+              <br />
+              <b>Diana:</b>
+              <a href="https://wa.link/jaiq21"> 0877-7109-1971 (WA)</a>
+              <br />
+              <b>Bernardin:</b>
+              <a href="https://wa.link/m1iov6"> 0812-8055-0833 (WA)</a>
+            </div>
+          </HeaderInfo>
+
           <HeaderInfo>
             <h1 className="font40 extraBold">Form Pendaftaran</h1>
           </HeaderInfo>

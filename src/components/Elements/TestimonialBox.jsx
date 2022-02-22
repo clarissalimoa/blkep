@@ -1,9 +1,10 @@
+import { Img } from "@chakra-ui/react";
 import React from "react";
 import styled from "styled-components";
 // Assets
 import QuoteIcon from "../../assets/svg/Quotes";
 
-export default function TestimonialBox({ text, author }) {
+export default function TestimonialBox({ text, author, img }) {
   return (
     <Wrapper className="darkBg radius8 flexNullCenter flexColumn">
       <QuoteWrapper>
@@ -12,6 +13,12 @@ export default function TestimonialBox({ text, author }) {
       <p className="whiteColor font13" style={{ paddingBottom: "30px" }}>
         {text}
       </p>
+      <Img
+        className="radius8"
+        src={img}
+        alt="office"
+        style={{ zIndex: 9, width: "200px", alignItems: "end" }}
+      />
       <p className="orangeColor font13" style={{ alignSelf: "flex-end" }}>
         <em>{author}</em>
       </p>
