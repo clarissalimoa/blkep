@@ -2,8 +2,6 @@ import React from "react";
 import styled from "styled-components";
 // Assets
 import HeaderImage from "../../assets/img/header.jpeg";
-// import QuotesIcon from "../../assets/svg/Quotes";
-// import Dots from "../../assets/svg/Dots";
 
 export default function Header() {
   return (
