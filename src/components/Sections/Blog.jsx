@@ -25,7 +25,7 @@ export default function Blog() {
                 text="Ketika saya mendapatkan undangan BLKEP di dalam grup WA, ada sesuatu yang menggerakkan hati saya untuk mendaftar. Saya merasakan sentuhan kuasa Roh Kudus pada saat pengajaran sesi membaca Firman Tuhan. Yang luar biasa adalah ternyata saya mendapatkan hampir semua jawaban yang saya cari dari setiap permasalahan yang saya hadapi. Satu ayat dari kitab Matius 6:33 
                 “Tetapi carilah dahulu Kerajaan Allah dan kebenarannya, maka semuanya itu akan ditambahkan kepadamu.” Inilah ayat yang menguatkan Saya.
                 Kalau selama ini saya hanya berpikir dengan berdoa setiap hari sudah cukup, tapi ternyata Tuhan mau menggunakan tangan hamba-Nya melalui salah satu sesi BLKEP untuk menyadarkan saya, bahwa saya bisa mendapatkan jawaban / petunjuk dari apa yang selalu saya doakan serta mendapat hikmat untuk dapat memahami rencana Tuhan dalam hidup saya. Inilah yang merubah kehidupan saya dalam berkeluarga dan hubungan terhadap sesama. Pada intinya setelah saya menyelesaikan seluruh sesi BLKEP ini, membuat saya memiliki sebuah gambaran yang baru terhadap diri saya sehingga membuat saya lebih berserah kepada Tuhan dan membiarkan rencana Tuhan terjadi dalam hidup saya."
-                author="Anthony Kiro"
+                author="Antony Kiro"
                 img={TestiImage1}
               />
             </LogoWrapper>
