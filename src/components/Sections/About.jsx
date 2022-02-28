@@ -55,8 +55,7 @@ export default function About() {
                 di Gereja Trinitas Cengkareng
               </AccordionPanel>
             </AccordionItem>
-
-            <AccordionItem>
+            {/* <AccordionItem>
               <h2>
                 <AccordionButton>
                   <Box flex="1" textAlign="left">
@@ -101,7 +100,7 @@ export default function About() {
                 pengampunanNya yang begitu besar berkuasa menyembuhkan dan
                 membebaskan kita.
               </AccordionPanel>
-            </AccordionItem>
+            </AccordionItem> */}
             <AccordionItem>
               <h2>
                 <AccordionButton>
@@ -113,12 +112,11 @@ export default function About() {
               </h2>
               <AccordionPanel pb={4}>
                 <OrderedList>
-                  <ListItem>Rekoleksi Awal Pertumbuhan</ListItem>
+                  <ListItem>Pertumbuhan</ListItem>
                   <ListItem>Pemuridan</ListItem>
                   <ListItem>Iman Katolik</ListItem>
                   <ListItem>Gospel Sharing</ListItem>
                   <ListItem>Self Image</ListItem>
-                  <ListItem>Rekoleksi ONLINE</ListItem>
                 </OrderedList>
               </AccordionPanel>
             </AccordionItem>
@@ -136,7 +134,7 @@ export default function About() {
               </h2>
               <AccordionPanel pb={4}>
                 Pandemi belum berakhir, tapi semangat kita tidak boleh berakhir.
-                Maka kita akan mengadakan BLKEP Angkatan VI dengan media{" "}
+                Maka kita akan mengadakan BLKEP Angkatan X dengan media{" "}
                 <a href="https://zoom.us/">
                   <b> Zoom </b>
                 </a>
@@ -148,28 +146,7 @@ export default function About() {
               <h2>
                 <AccordionButton>
                   <Box flex="1" textAlign="left">
-                    <b> Bagaimana retretnya nanti ya? </b>
-                  </Box>
-                  <AccordionIcon />
-                </AccordionButton>
-              </h2>
-              <AccordionPanel pb={4}>
-                Retret Penyembuhan Luka Batin akan tetap dilangsungkan dengan
-                media{" "}
-                <a href="https://zoom.us/">
-                  <b> Zoom </b>
-                </a>{" "}
-                online meeting, dengan keterbatasan tidak dapat bersentuhan
-                secara fisik, tetapi kita percaya Roh Kudus tetap hadir
-                dimanapun kita berada karena Ia menembus batas ruang dan waktu.
-                Amin.
-              </AccordionPanel>
-            </AccordionItem>
-            <AccordionItem>
-              <h2>
-                <AccordionButton>
-                  <Box flex="1" textAlign="left">
-                    <b> Berapa biaya pengajaran dan retret perutusannya? </b>
+                    <b> Berapa biaya pendaftaran? </b>
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>

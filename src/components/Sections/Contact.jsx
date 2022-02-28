@@ -12,13 +12,22 @@ export default function Contact() {
               Untuk informasi lebih lanjut dapat menghubungi contact person
               sebagai berikut: <br />
               <b> Deddy:</b>
-              <a href="https://wa.link/aeee09"> 0813-1683-0568 (WA)</a>
+              <a href="https://wa.link/aeee09" style={{ color: "#0000fa" }}>
+                {" "}
+                0813-1683-0568 (WA)
+              </a>
               <br />
               <b>Diana:</b>
-              <a href="https://wa.link/jaiq21"> 0877-7109-1971 (WA)</a>
+              <a href="https://wa.link/jaiq21" style={{ color: "#0000fa" }}>
+                {" "}
+                0877-7109-1971 (WA)
+              </a>
               <br />
               <b>Bernardin:</b>
-              <a href="https://wa.link/m1iov6"> 0812-8055-0833 (WA)</a>
+              <a href="https://wa.link/m1iov6" style={{ color: "#0000fa" }}>
+                {" "}
+                0812-8055-0833 (WA)
+              </a>
             </div>
           </HeaderInfo>
 
