@@ -34,6 +34,13 @@ export default function Contact() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Form Pendaftaran</h1>
           </HeaderInfo>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfRFzuL5-lmKOvEd2srDDEunM5MIX_h994ChtMAouvS9Mfdlg/viewform"
+            style={{ color: "#0000fa" }}
+          >
+            *Jika form di bawah tidak muncul, klik Link Pendaftaran di sini
+          </a>
+
           <div
             className="center"
             style={{ display: "flex", justifyContent: "center" }}
