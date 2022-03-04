@@ -57,11 +57,8 @@ export default function Blog() {
             <LogoWrapper>
               <TestimonialBox
                 text="Yang mendorong saya untuk mengikuti BLKEP adalah saya ingin menjadi pribadi yang lebih baik lagi di mata Tuhan dan sesama. Melalui BLKEP, saya diperlihatkan gambar diri saya yang sesungguhnya. Saya semakin diingatkan untuk semakin mau rendah hati, mau mengampuni sesama yang menyakiti saya, tidak menyimpan dendam, dan juga mau merendahkan diri. Melalui BLKEP juga iman saya boleh semakin bertumbuh dan juga saya mengalami buah buah yang baik, diantaranya yaitu suami saya sudah mau terlibat di dalam pelayanan, baik di lingkungan maupun paroki.  
-                <br />
                 Saya merasakan jamahan dan pemeliharaan Tuhan yang sungguh luar biasa di dalam kehidupan saya, terlebih pada saat saya mengikuti retret luka batin, disana saya benar benar dipulihkan, apa yang mengganjal di dalam hati saya, terlepas semuanya, hati saya terasa lega dan ringan seperti kapas, saya benar benar merasakan damai sejahtera dan suka cita yang luar biasa.
-                <br />
                 Melalui BLKEP ini juga saya diingatkan untuk selalu mengandalkan Tuhan dalam segala hal. Demikian juga di dalam menjalani tugas pelayanan yang diberikan kepada saya, saya selalu berdoa kepada Tuhan, apakah tugas pelayanan ini merupakan kehendak Tuhan atau bukan ? Saya percaya kalo memang kehendak Tuhan untuk saya melayani, pastilah Tuhan akan mudahkan semuanya dan Tuhan akan menyertai selalu dalam setiap hal yang boleh saya hadapi. 
-                <br />
                 Saya mengajak teman teman semua untuk ikut bergabung di dalam BLKEP X ini, rasakan perubahan dalam hidup teman teman setelah mengikuti BLKEP, teman teman akan semakin yakin bahwa kita semua berharga di mata Tuhan, Tuhan amat sangat mengasihi kita, hal ini ditunjukkan dimana Tuhan telah mengorbankan dirinya di kayu salib demi menyelamatkan kita dan menebus dosa kita....
                 "
                 author="Endah, KEP XV, BLKEP VII"

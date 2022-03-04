@@ -9,6 +9,7 @@ import Photo3 from "../../assets/img/photos/3.jpeg";
 import Photo4 from "../../assets/img/photos/4.jpeg";
 import Photo5 from "../../assets/img/photos/5.jpeg";
 import Photo6 from "../../assets/img/photos/6.jpeg";
+import Photo7 from "../../assets/img/photos/7.jpeg";
 
 export default function Projects() {
   return (
@@ -40,6 +41,17 @@ export default function Projects() {
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox img={Photo6} />
             </div>
+          </div>
+          <div className="row textCenter">
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox img={Photo7} />
+            </div>
+            {/* <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox img={Photo5} />
+            </div>
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox img={Photo6} />
+            </div> */}
           </div>
         </div>
       </div>
