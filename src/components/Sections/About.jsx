@@ -10,7 +10,10 @@ import {
   Box,
   OrderedList,
   ListItem,
+  Img,
 } from "@chakra-ui/react";
+
+import JadwalImage from "../../assets/img/photos/jadwal.jpg";
 
 export default function About() {
   return (
@@ -153,6 +156,26 @@ export default function About() {
               </h2>
               <AccordionPanel pb={4}>
                 Biaya pengajaran BLKEP sebesar <b> Rp 100.000,-</b>
+              </AccordionPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box flex="1" textAlign="left">
+                    <b> Bagaimana jadwal belajarnya? </b>
+                  </Box>
+                  <AccordionIcon />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                Berikut ini adalah jadwal pengajaran yang berlangsung mulai Juni
+                2022 - Februari 2023
+                <Img
+                  className="radius8"
+                  src={JadwalImage}
+                  alt="office"
+                  style={{ zIndex: 9, width: "95%", alignItems: "end" }}
+                />
               </AccordionPanel>
             </AccordionItem>
           </Accordion>
