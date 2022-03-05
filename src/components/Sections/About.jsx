@@ -30,7 +30,7 @@ export default function About() {
             </p>
           </HeaderInfo>
           <br />
-          <Accordion className="whiteBg">
+          <Accordion className="whiteBg" allowMultiple allowToggle>
             <AccordionItem>
               <h2>
                 <AccordionButton>
