@@ -39,7 +39,7 @@ export default function Contact() {
             style={{ color: "#0000fa" }}
           >
             *Jika form di bawah tidak muncul, klik Link Pendaftaran di sini.
-            Pembayaran hanya ke BCA 0281771913 an SUSANTY CHANDRA
+            Pembayaran hanya ke BCA 5390725746 an SUSANTY CHANDRA
           </a>
 
           <div
