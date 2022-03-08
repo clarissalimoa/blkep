@@ -38,7 +38,8 @@ export default function Contact() {
             href="https://docs.google.com/forms/d/e/1FAIpQLSfRFzuL5-lmKOvEd2srDDEunM5MIX_h994ChtMAouvS9Mfdlg/viewform"
             style={{ color: "#0000fa" }}
           >
-            *Jika form di bawah tidak muncul, klik Link Pendaftaran di sini
+            *Jika form di bawah tidak muncul, klik Link Pendaftaran di sini.
+            Pembayaran hanya ke BCA 0281771913 an SUSANTY CHANDRA
           </a>
 
           <div
