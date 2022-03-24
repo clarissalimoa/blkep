@@ -156,7 +156,7 @@ export default function About() {
               </h2>
               <AccordionPanel pb={4}>
                 Biaya pengajaran BLKEP sebesar <b> Rp 100.000,-</b>. Pembayaran
-                ditransfer ke <b>BCA 5390725746 an SUSANTY CHANDRA</b>.
+                ditransfer ke <b>BCA 5390730626 an SUSANTY CHANDRA</b>.
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
